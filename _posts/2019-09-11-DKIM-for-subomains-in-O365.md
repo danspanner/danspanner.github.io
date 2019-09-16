@@ -3,7 +3,7 @@ layout: post
 title:  "DKIM for subdomains in O365"
 ---
 
-# So DKIM is pretty nice.
+## So DKIM is pretty nice.
 
 For everyone else, of course. It does very little to protect your own users and domain, and it's one of those "if everyone is using it, it works great!" sort of deals.
 
@@ -17,17 +17,11 @@ But then, just to throw me a curveball, I got a panicked email.
 
 _Uh oh, has DKIM broken everything?_ I thought.
 
-Nope. Turns out, marketing material had been sent out with info@sudomain.domain.com instead of info@otherdomain.com. Can I make an email address for it?
+Nope. Turns out, marketing material had been sent out with info@subdomain.domain.com instead of info@otherdomain.com. Can I make an email address for it?
 
 Easy done. Five minutes work. I added the subdomain, added MX records, DMARC and SPF...
 
-But how would DKIM work?
-
-OK. Looks like the adventure isn't over.
-
-I did a lot of googling, and furrowed my brow over many a conflicting stackoverflow article. It was never disputed that you could have DKIM enabled on a subdomain, and I found guides for all sorts of mail servers. But not Exchange Online.
-
-And the tickbox was gone.
+And the tickbox was gone. Well. Looks like this adventure isn't over.
 
 So, I made some preparations. 
 
