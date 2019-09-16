@@ -5,7 +5,7 @@ title: Stuff to with a Raspberry Pi
 
 ## Stuff to do with a Raspberry Pi
 
-So I have a couple of Raspberry Pis. I'm not 100% certain why I have them, which is probably why they have been gathering dust on a shelf in my office for so long. There was some conversation in the SecTalks slack about mobile computing and the Rpi in general, and I felt guilty about leaving my little computers to languish so long. So I got to thinking- what could I use my Rpi for?
+So I have a couple of Raspberry Pis. Raspberry Pi 3 model B to be precise. I'm not 100% certain why I have them, which is probably why they have been gathering dust on a shelf in my office for so long. There was some conversation in the SecTalks slack about mobile computing and the Rpi in general, and I felt guilty about leaving my little computers to languish so long. So I got to thinking- what could I use my Rpi for?
 
 Then I read about the wonders of [Pi-hole](https://pi-hole.net/). Seems neat!
 
