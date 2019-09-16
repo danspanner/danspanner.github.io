@@ -21,7 +21,7 @@ After and `apt-get update` and `apt-get upgrade` I finally spun up pi-hole.
 
 I ran into some issues here though. Turns out, port 53 was spoken for. A little googling lead me to [this page](https://askubuntu.com/questions/907246/how-to-disable-systemd-resolved-in-ubuntu) which helpfully explained how to disable resolved in systemd. With that done, pi-hole was happy to act as a DNS server for me!
 
-[pihole](danspanner.github.io/img/pihole.png)
+![pihole](danspanner.github.io/img/pihole.png)
 
 In fact, I liked it so much I added it to the router as my primary DNS. I have noticed since using it that from time to time, I get resolution failures on my phone after connecting, and oddly only on my phone (a Samsung Note 5 running Android 7).
  
