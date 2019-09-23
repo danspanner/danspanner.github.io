@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stuff to do with a Raspberry Pi
+title: Poking around in AD
 ---
 
 I went down a bit of a rabbit hole to see if I could reverse out the photo from AD.
