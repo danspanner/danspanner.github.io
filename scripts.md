@@ -90,11 +90,13 @@ Add-ADGroupMember -Identity "New Group" -Members (Get-ADGroupMember "All Staff")
 
 ### Check to see if users have a blank pager field (and fix it if they do)
 
+The `pager` field in AD is pretty fun, and it's handy for storing basically anything other  than a pager number. Problem is, I know a few applications that don't like to write to the field if it's not initialised with a vlaue- by default it's `NULL`.
+
 ```powershell
 $pagerusers = Get-ADUser -Filter \* -properties \* -SearchBase "OU=Users,DC=domain,DC=com" | where pager -eq $null
 ```
 
-Then get the count with `$pagerusers.count`
+You can then get the count with `$pagerusers.count` if you so desire. Otherwise-
 
 ```powershell
 Get-ADUser -Filter \* -properties \* -SearchBase "OU=Users,DC=domain,DC=com" | where pager -eq $null | % {Set-ADUser $\_ -add @{Pager="1"}}
