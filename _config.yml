@@ -1,5 +1,5 @@
 remote_theme: jekyll/minima
 header_pages:
-  - Handy-scripts-and-one-liners.md
+  - scripts.md
 social_links:
   github: danspanner
