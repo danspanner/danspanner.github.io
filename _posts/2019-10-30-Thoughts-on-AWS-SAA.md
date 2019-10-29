@@ -27,7 +27,7 @@ Last but not least, here is a list of AWS services that are covered in the exam.
 
 * Compute
 	* [EC2](https://aws.amazon.com/ec2/faqs/)
- 	* [Lambda](https://aws.amazon.com/lambda/faqs/)
+    * [Lambda](https://aws.amazon.com/lambda/faqs/)
 	* [Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/faqs/)
 * Storage
 	* [S3](https://aws.amazon.com/s3/faqs/)
