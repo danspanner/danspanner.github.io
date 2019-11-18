@@ -3,39 +3,10 @@ layout: page
 title:  Handy scripts and one-liners
 ---
 
-This should probably live in a gist or something. But eh. This works too.
-
 Just a collection of handy little bits I've collected for various problems I've been asked to solve time and time again.
 
-*   [Powershell](#HandyScriptsandOne-liners-Powershell)
-    *   [Set your execution policy](#HandyScriptsandOne-liners-Setyourexecutionpolicy)
-    *   [Add "Features on Demand" in Windows 10 1809](#HandyScriptsandOne-liners-Add"FeaturesonDemand"inWindows101809)
-    *   [Copy members of one AD group to another group](#HandyScriptsandOne-liners-CopymembersofoneADgrouptoanothergroup)
-    *   [Find out what DC I'm talking to](#HandyScriptsandOne-liners-FindoutwhatDCI'mtalkingto)
-    *   [Check to see if users have a blank pager field (and fix it if they do)](#HandyScriptsandOne-liners-Checktoseeifusershaveablankpagerfield(andfixitiftheydo))
-    *   [Get a list of printers from the print server (with corresponding IP addresses)](#HandyScriptsandOne-liners-Getalistofprintersfromtheprintserver(withcorrespondingIPaddresses))
-    *   [Find the remote logged in user](#HandyScriptsandOne-liners-Findtheremoteloggedinuser)
-    *   [Find your PC serial number](#HandyScriptsandOne-liners-FindyourPCserialnumber)
-    *   [Modify the property of a value stored in a variable](#HandyScriptsandOne-liners-Modifythepropertyofavaluestoredinavariable)
-    *   [Check to see if a website is up or not](#HandyScriptsandOne-liners-Checktoseeifawebsiteisupornot)
-    *   [Pulling the jpegPhoto attribute from an AD User](#HandyScriptsandOne-liners-PullingthejpegPhotoattributefromanADUser)
-    *   [tcpdump without tcpdump](#HandyScriptsandOne-liners-tcpdumpwithouttcpdump)
-    *   [Colin's pdf script](#HandyScriptsandOne-liners-Colin'spdfscript)
-*   [bash](#HandyScriptsandOne-liners-bash)
-    *   [Finding things in bash](#HandyScriptsandOne-liners-Findingthingsinbash)
-    *   [Recursively grep](#HandyScriptsandOne-liners-Recursivelygrep)
-    *   [snmpwalk of all printers](#HandyScriptsandOne-liners-snmpwalkofallprinters)
-*   [Docker](#HandyScriptsandOne-liners-Docker)
-    *   [Run something inside a container](#HandyScriptsandOne-liners-Runsomethinginsideacontainer)
-    *   [Copying files into or out of containers](#HandyScriptsandOne-liners-Copyingfilesintooroutofcontainers)
-*   [SQL queries etc.](#HandyScriptsandOne-liners-SQLqueriesetc.)
-    *   [Connecting to mysql on sps-lweb01](#HandyScriptsandOne-liners-Connectingtomysqlonsps-lweb01)
-    *   [Listing users](#HandyScriptsandOne-liners-Listingusers)
-    *   [Search tables in MSSQL](#HandyScriptsandOne-liners-SearchtablesinMSSQL)
-*   [Cisco CLI](#HandyScriptsandOne-liners-CiscoCLI)
-    *   [Find a mac address](#HandyScriptsandOne-liners-Findamacaddress)
-*   [Links](#HandyScriptsandOne-liners-Links)
-    *   [Fix for not being able to see specific attributes in AD](#HandyScriptsandOne-liners-FixfornotbeingabletoseespecificattributesinAD)
+* TOC
+{:toc}
 
 A collection of quick powershell / bash scripts and links to make my life easier
 
