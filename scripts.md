@@ -234,7 +234,7 @@ Since I always forget, this is a catch-all for finding things
 
 ### snmpwalk of all printers
 
-WaynSomeonee asked me for a list of printer makes and models we have around the place, which is something that you can't get from the print server (unfortunately). However, we can get it through the wonders of SNMP.
+Someone asked me for a list of printer makes and models we have around the place, which is something that you can't get from the print server (unfortunately). However, we can get it through the wonders of SNMP.
 
 I pulled the list of IPs from the print server (see the powershell section), then whipped up a quick and dirty bash script.
 

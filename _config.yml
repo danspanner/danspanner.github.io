@@ -1,4 +1,4 @@
-remote_theme: jekyll/minima
+remote_theme: klepas/fuckyouimaplatypus-sites
 header_pages:
   - scripts.md
   - todo.md

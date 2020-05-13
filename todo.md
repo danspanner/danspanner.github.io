@@ -6,9 +6,8 @@ title:  TODO
 An unordered list of stuff I want to get into and technology to learn
 
 ### Tech stuff
-- [Go](https://tour.golang.org/welcome/1)
-- Python
-- bash...just...do more bash
+- Learn some [Go](https://tour.golang.org/welcome/1)
+- Learn some Python
 - Do something _fun_ with code- make a game or some other toy
 - Fix up my blog template (ie. find / make a nice one)
 - Install gitlab-ce and do some more CI/CD
@@ -26,3 +25,4 @@ An unordered list of stuff I want to get into and technology to learn
 ### Goals
 - Make a commit to a public github repo
 - Automate setting up my personal dev env
+- Get my internal monitored
