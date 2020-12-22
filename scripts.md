@@ -250,6 +250,26 @@ done
 
 The output looks like garbage and I had to clean it up a little, but it's relatively serviceable for 20 minutes work.
 
+ansible
+=======
+
+### Run one-off commands in ansible
+
+```ansible -a "cat /etc/lsb-release" -m shell all -i inventory.file -u username```
+
+`-m` tells it which module to use, in this case `shell`, and `all` tells it which group in the inventory to run it against.
+
+### Get a count of hosts in an inventory file
+
+```ansible-inventory -i inventory.file --graph ungrouped | wc -l```
+
+Just remember to take the total -1, since it will include the group name as a line in the count.
+
+It's nicer to do this in `jq`, provided you have the tool installed-
+
+```ansible-inventory -i inventory.file --list | jq '.ungrouped.hosts | length'```
+
+
 Docker
 ======
 
