@@ -6,9 +6,9 @@ title: Password cracking in 2021 part one
 Recently at work there was a Windows Server that none appeared to have the password for. What better chance to try out some good old fashioned hacking?
 
 Well, old fashioned was definitely the word for. A lot of the documentation out there for cracking Windows passwords is very outdated. After a frustrating couple of hours trying to 
-1) Get the password hash
-2) Install NVIDIA drivers and CUDA SDK
-3) Compile John the Ripper to enable OpenCL cracking
+1. Get the password hash
+2. Install NVIDIA drivers and CUDA SDK
+3. Compile John the Ripper to enable OpenCL cracking
 I finally got the right combination of tools, technology and stars to align and setup my very own password cracking rig.
 
 I'm pretty lucky at work- someone else has already gone through the hard yards and got PCI passthrough enabled. So there wasn't a lot of work I had to do in order to get an instance running on Openstack with PCI passthrough with an image of Ubuntu 18.04. However, none of the glance images we use have the drivers installed, that's all left to the user.
