@@ -250,6 +250,10 @@ done
 
 The output looks like garbage and I had to clean it up a little, but it's relatively serviceable for 20 minutes work.
 
+### get your wan IP from bash
+
+```dig +short myip.opendns.com @resolver1.opendns.com.```
+
 ansible
 =======
 
