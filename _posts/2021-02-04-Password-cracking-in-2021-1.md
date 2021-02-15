@@ -3,7 +3,7 @@ layout: post
 title: Password cracking in 2021 part one
 ---
 
-Recently at work there was a Windows Server that none appeared to have the password for. What better chance to try out some good old fashioned hacking?
+Recently at work there was a Windows Server that noone appeared to have the password for. What better chance to try out some good old fashioned hacking?
 
 Well, old fashioned was definitely the word for. A lot of the documentation out there for cracking Windows passwords is very outdated. After a frustrating couple of hours trying to 
 1. Get the password hash
