@@ -293,6 +293,21 @@ And the reverse to copy a file into a container
 
 ```docker cp /file/to/copy container:/file/to/replace```
 
+Openstack
+=========
+
+### Direct input to set user password
+
+Works in ubuntu images, not sure about centos...
+
+```
+#cloud-config
+password: changeme
+chpasswd: { expire: False }
+ssh_pwauth: True
+```
+
+
 SQL queries etc.
 ================
 
