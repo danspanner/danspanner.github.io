@@ -219,6 +219,18 @@ foreach ($student in $students) {
 
 Just make sure you run it from the directory you're copying stuff from.
 
+### tail a file
+
+```powershell
+Get-Content file.txt -wait
+```
+
+Also, you can filter for keywords etc.
+
+```powershell
+Get-Content file.txt -wait | where{$_ -match "TEXT"}
+```
+
 bash
 ====
 
