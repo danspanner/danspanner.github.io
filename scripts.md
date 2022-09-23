@@ -285,6 +285,12 @@ It's nicer to do this in `jq`, provided you have the tool installed-
 
 ```ansible-inventory -i inventory.file --list | jq '.ungrouped.hosts | length'```
 
+### Generate a password hash (for your breakglass account)
+
+```ansible all -i localhost, -m debug -a "msg={{ 'YourPasswordHere' | password_hash('sha512', 'salt123456789') }}"
+
+This will spit out a password hash that you can then deploy out to whatever servers require it.
+
 
 Docker
 ======
