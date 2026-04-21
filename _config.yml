@@ -1,6 +1,3 @@
 remote_theme: jekyll/minima
 header_pages:
   - scripts.md
-  - todo.md
-social_links:
-  github: danspanner
